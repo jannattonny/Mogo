@@ -1,0 +1,753 @@
+@media (min-width:1400px) and (max-width:1920px){
+  
+        .navbar-brand h1 {
+            transform: scale(.8);
+            -webkit-transform: scale(.8);
+            -moz-transform: scale(.8);
+            -ms-transform: scale(.8);
+            -o-transform: scale(.8);
+    }
+    .ban-text h4 {
+        font-size: 90px;
+        line-height: 83px;
+    
+        /* padding-right: 83px; */
+    }
+    .ban-text button {
+    
+        margin-bottom: 244px;
+    }
+            
+             .ban-text h2 {
+                font-size: 50px;
+                padding-top: 329px;
+                padding-bottom: 4px;
+            }
+          
+          
+         
+          
+           .navbar-toggler:focus {
+              
+               box-shadow: none;
+           }
+          
+          
+           
+           .f-icon i {
+               padding: 2px;
+           }
+           .f-form input {
+            width:360px;
+        }
+        .f-form button {
+            padding: 21px 5px;
+            right: 182px;
+        }
+        .f-content h4::after{
+          
+            width: 80%;
+           
+        }
+           .f-text p {
+           
+            padding-left: 16px;
+        }
+        .f-text h5 {
+          padding-left: 16px;
+        }
+        .f-text p {
+          
+            margin-top: 3px;
+         
+        }
+        #work {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        .about-l {
+            
+            left: 44px;
+           
+        }
+        .about-text p {
+           
+            margin-top: 20px;
+            padding-right: 0px;
+            margin-bottom: 50px;
+            text-align: center;
+        }
+        .about-r {
+            
+           right: 44px;
+           
+        }
+        .team-l {
+          
+            left: 42px;
+            
+        }
+        .team-r {
+          
+            right: 42px;
+            
+        }
+           .row {
+               --bs-gutter-x: 0;
+               --bs-gutter-y: 0;
+           }
+    
+}
+@media (min-width:1200px) and (max-width:1399px){
+    .navbar-brand h1 {
+        transform: scale(.8);
+        -webkit-transform: scale(.8);
+        -moz-transform: scale(.8);
+        -ms-transform: scale(.8);
+        -o-transform: scale(.8);
+}
+.ban-text h4 {
+	font-size: 88px;
+	line-height: 83px;
+
+	/* padding-right: 83px; */
+}
+.ban-text button {
+
+	margin-bottom: 244px;
+}
+        
+         .ban-text h2 {
+            font-size: 41px;
+            padding-top: 329px;
+            padding-bottom: 4px;
+        }
+      
+      
+     
+      
+       .navbar-toggler:focus {
+          
+           box-shadow: none;
+       }
+      
+      
+       
+       .f-icon i {
+           padding: 2px;
+       }
+       .f-form input {
+        width:327px;
+    }
+    .f-form button {
+        padding: 21px 5px;
+        right: 64px;
+    }
+    .f-content h4::after{
+      
+        width: 80%;
+       
+    }
+       .f-text p {
+       
+        padding-left: 16px;
+    }
+    .f-text h5 {
+      padding-left: 16px;
+    }
+    .f-text p {
+      
+        margin-top: 3px;
+     
+    }
+    #work {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .about-l {
+        
+        left: 125px;
+       
+    }
+    .about-text p {
+       
+        margin-top: 20px;
+        padding-right: 0px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .about-r {
+        
+       right: 125px;
+       
+    }
+    .team-l {
+      
+        left: 128px;
+        
+    }
+    .team-r {
+      
+        right: 128px;
+        
+    }
+       .row {
+           --bs-gutter-x: 0;
+           --bs-gutter-y: 0;
+       }
+}
+@media (min-width:992px) and (max-width:1199px){
+    .navbar-brand h1 {
+        transform: scale(.8);
+        -webkit-transform: scale(.8);
+        -moz-transform: scale(.8);
+        -ms-transform: scale(.8);
+        -o-transform: scale(.8);
+}
+.ban-text h4 {
+	font-size: 88px;
+	line-height: 83px;
+
+	/* padding-right: 83px; */
+}
+.ban-text button {
+
+	margin-bottom: 244px;
+}
+        
+         .ban-text h2 {
+            font-size: 41px;
+            padding-top: 329px;
+            padding-bottom: 4px;
+        }
+      
+      
+     
+      
+       .navbar-toggler:focus {
+          
+           box-shadow: none;
+       }
+      
+      
+       
+       .f-icon i {
+           padding: 2px;
+       }
+       .f-form input {
+        width:327px;
+    }
+    .f-form button {
+        padding: 21px 5px;
+        right: 64px;
+    }
+    .f-content h4::after{
+      
+        width: 80%;
+       
+    }
+       .f-text p {
+       
+        padding-left: 16px;
+    }
+    .f-text h5 {
+      padding-left: 16px;
+    }
+    .f-text p {
+      
+        margin-top: 3px;
+     
+    }
+    #work {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .about-l {
+        
+        left: 14px;
+       
+    }
+    .about-text p {
+       
+        margin-top: 20px;
+        padding-right: 0px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .about-r {
+        
+       right: 14px;
+       
+    }
+    .team-l {
+      
+        left: 17px;
+        
+    }
+    .team-r {
+      
+        right: 17px;
+        
+    }
+       .row {
+           --bs-gutter-x: 0;
+           --bs-gutter-y: 0;
+       }
+}
+
+
+
+
+@media (min-width:768px) and (max-width:991px){
+    .navbar-brand h1 {
+        transform: scale(.8);
+        -webkit-transform: scale(.8);
+        -moz-transform: scale(.8);
+        -ms-transform: scale(.8);
+        -o-transform: scale(.8);
+}
+.ban-text h4 {
+	font-size: 62px;
+	line-height: 60px;
+	padding-bottom: 15px;
+}
+         .ban-angle{
+             display: none;
+         }
+         .ban-text h2 {
+            font-size: 52px;
+            padding-top: 256px;
+            padding-bottom: 6px;
+        }
+      
+       .ban-text h4::after{
+           display: none;
+       }
+       .ban-text button {
+           border: 2px solid #fff;
+           margin-top: 20px;
+           padding: 10px 45px;
+           margin-bottom: 235px;
+       }
+       .ban-text button a {
+           color: #fff;
+           font-family: 'Montserrat', sans-serif;
+           font-size: 13px;
+           font-weight: 700;
+           text-transform: uppercase;
+       }
+       .navbar-toggler:focus {
+          
+           box-shadow: none;
+       }
+       .navbar-nav{
+           background-color: #e74c3c;
+           text-align: center;
+       }
+      
+       .nav-link::after{
+           display: none;
+       }
+       .navbar.sticky-menu .nav-link {
+           color: #fff;
+         
+           margin-top: 0px;
+          
+       }
+       .navbar{
+           padding-top: 0;
+       }
+       /*======================about=========================*/
+       #about {
+           padding-top: 50px;
+           padding-bottom: 50px;
+           text-align: center;
+       }
+       .about-text h1 {
+          
+           font-size: 24px;
+         
+       }
+       .about-text p {
+           
+           font-size: 15px;
+           padding-right: 0;
+           margin-bottom: 50px;
+           text-align: center;
+           margin-top: 20px;
+       }
+       .about-angle{
+           display: none;
+       }
+       #services {
+           padding-top: 50px;
+           padding-bottom: 50px;
+       }
+       .s-content p{
+           padding-right: 30px;
+       }
+       .s-content{
+           padding-top: 15px;
+           padding-bottom: 15px;
+       }
+       .s {
+           margin-top: 0;
+       }
+       .comment-text p { 
+           font-size: 19px;
+         line-height: 24px;
+         padding-top: 10px;
+       }
+       #comment {
+           padding-top: 50px;
+           padding-bottom: 50px;
+          
+       }
+       .comment-text p {
+        text-align: start;
+        padding-left: 52px;
+       ;
+    }
+    .comment-text h5 {
+      
+        padding-left: 114px;
+        
+       
+    }
+    .comment-text h5::before{
+      margin-left: 50px;
+    }
+    #counter {
+        padding-top: 50px;
+        padding-bottom: 50px;
+       
+    }
+    .c-content h1 {
+       
+        font-size: 49px;
+       
+    }
+    .c-content p {
+       
+        padding-right: 25px;
+    }
+       #team {
+           padding-top: 50px;
+           padding-bottom: 30px;
+           position: relative;
+       }
+       .f-icon i {
+           padding: 2px;
+       }
+       .f-form input {
+        width: 606px;
+    }
+    .f-form button {
+        padding: 21px 25px;
+        right: 91px;
+    }
+       .f-text p {
+       
+        padding-left: 16px;
+    }
+    .f-text h5 {
+      padding-left: 16px;
+    }
+       .f-img img {
+         
+           height: 100%;
+       }
+       .row {
+           --bs-gutter-x: 0;
+           --bs-gutter-y: 0;
+       }
+}
+
+
+
+@media (min-width:576px) and (max-width:767px){
+    .navbar-brand h1 {
+        transform: scale(.8);
+        -webkit-transform: scale(.8);
+        -moz-transform: scale(.8);
+        -ms-transform: scale(.8);
+        -o-transform: scale(.8);
+}
+       .ban-text h4 {
+           font-size: 41px;
+           line-height: 14px;
+          
+         }
+         .ban-angle{
+             display: none;
+         }
+         .ban-text h2 {
+           font-size: 35px;
+           padding-top: 256px;
+           padding-bottom: 10px;
+       }
+      
+       .ban-text h4::after{
+           display: none;
+       }
+       .ban-text button {
+           border: 2px solid #fff;
+           margin-top: 20px;
+           padding: 5px 25px;
+           margin-bottom: 235px;
+       }
+       .ban-text button a {
+           color: #fff;
+           font-family: 'Montserrat', sans-serif;
+           font-size: 13px;
+           font-weight: 700;
+           text-transform: uppercase;
+       }
+       .navbar-toggler:focus {
+          
+           box-shadow: none;
+       }
+       .navbar-nav{
+           background-color: #e74c3c;
+           text-align: center;
+       }
+      
+       .nav-link::after{
+           display: none;
+       }
+       .navbar.sticky-menu .nav-link {
+           color: #fff;
+         
+           margin-top: 0px;
+          
+       }
+       .navbar{
+           padding-top: 0;
+       }
+       /*======================about=========================*/
+       #about {
+           padding-top: 50px;
+           padding-bottom: 50px;
+           text-align: center;
+       }
+       .about-text h1 {
+          
+           font-size: 24px;
+         
+       }
+       .about-text p {
+           
+           font-size: 15px;
+           padding-right: 0;
+           margin-bottom: 50px;
+           text-align: center;
+           margin-top: 20px;
+       }
+       .about-angle{
+           display: none;
+       }
+       #services {
+           padding-top: 50px;
+           padding-bottom: 50px;
+       }
+       .s-content p{
+           padding-right: 30px;
+       }
+       .s-content{
+           padding-top: 15px;
+           padding-bottom: 15px;
+       }
+       .s {
+           margin-top: 0;
+       }
+       .comment-text p { 
+           font-size: 19px;
+         line-height: 24px;
+         padding-top: 10px;
+       }
+       #comment {
+           padding-top: 50px;
+           padding-bottom: 50px;
+          
+       }
+       .comment-text p {
+        text-align: start;
+        padding-left: 52px;
+       ;
+    }
+    .comment-text h5 {
+      
+        padding-left: 114px;
+        
+       
+    }
+    .comment-text h5::before{
+      margin-left: 50px;
+    }
+       #team {
+           padding-top: 50px;
+           padding-bottom: 30px;
+           position: relative;
+       }
+       .f-icon i {
+           padding: 2px;
+       }
+       .f-form input {
+        width: 426px;
+    }
+    .f-form button {
+        padding: 21px 25px;
+        right: 91px;
+    }
+       .f-text p {
+       
+        padding-left: 16px;
+    }
+    .f-text h5 {
+      padding-left: 16px;
+    }
+       .f-img img {
+         
+           height: 100%;
+       }
+       .row {
+           --bs-gutter-x: 0;
+           --bs-gutter-y: 0;
+       }
+}
+
+
+
+@media (max-width:575.99px){
+    .navbar-brand h1 {
+     transform: scale(.7);
+     -webkit-transform: scale(.7);
+     -moz-transform: scale(.7);
+     -ms-transform: scale(.7);
+     -o-transform: scale(.7);
+}
+    .ban-text h4 {
+        font-size: 20px;
+        line-height: 10px;
+        padding-bottom: 5px;
+       
+      }
+      .ban-angle{
+          display: none;
+      }
+      .ban-text h2 {
+        font-size: 20px;
+        padding-top: 247px;
+        padding-bottom: 10px;
+    }
+   
+    .ban-text h4::after{
+        display: none;
+    }
+    .ban-text button {
+        border: 2px solid #fff;
+        margin-top: 0px;
+        padding: 3px 5px;
+        margin-bottom: 235px;
+    }
+    .ban-text button a {
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 13px;
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+    .navbar-toggler:focus {
+       
+        box-shadow: none;
+    }
+    .navbar-nav{
+        background-color: #e74c3c;
+        text-align: center;
+    }
+   
+    .nav-link::after{
+        display: none;
+    }
+    .navbar.sticky-menu .nav-link {
+        color: #fff;
+      
+        margin-top: 0px;
+       
+    }
+    .navbar{
+        padding-top: 0;
+    }
+    /*======================about=========================*/
+    #about {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    .about-text h1 {
+       
+        font-size: 24px;
+      
+    }
+    .about-text p {
+        
+        font-size: 13px;
+        padding-right: 0;
+        margin-bottom: 50px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .about-angle{
+        display: none;
+    }
+    #services {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .s-content p{
+        padding-right: 0;
+    }
+    .s-content{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .s {
+        margin-top: 0;
+    }
+    .comment-text p { 
+        font-size: 19px;
+      line-height: 24px;
+      padding-top: 10px;
+    }
+    #comment {
+        padding-top: 50px;
+        padding-bottom: 50px;
+       
+    }
+    #team {
+        padding-top: 50px;
+        padding-bottom: 30px;
+        position: relative;
+    }
+    .f-icon i {
+        padding: 2px;
+    }
+    .f-form input {
+        width: 291px;
+       
+    }
+    .f-form button {
+        padding: 21px 5px;
+       right: -5px;
+    }
+    .f-img img {
+      
+        height: 100%;
+    }
+    .row {
+        --bs-gutter-x: 0;
+        --bs-gutter-y: 0;
+    }
+  
+     
+}

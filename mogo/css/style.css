@@ -1,0 +1,831 @@
+/*=====================common css==========================*/
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    
+   
+}
+ul,ol{
+    list-style-type: none;
+}
+/*=====================navbar part css==========================*/
+/* Remove border from toggler */
+.navbar-toggler {
+    border: 0 !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 0 !important;
+}
+
+/* Lines of the Toggler */
+.toggler-icon{
+    width: 30px;
+    height: 3px;
+    background-color: #e74c3c;
+    display: block;
+    transition: all 0.2s;
+}
+
+/* Adds Space between the lines */
+.middle-bar{
+    margin: 5px auto;
+}
+
+/* State when navbar is opened (START) */
+.navbar-toggler .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+}
+/* State when navbar is opened (END) */
+
+/* State when navbar is collapsed (START) */
+.navbar-toggler.collapsed .top-bar {
+    transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+    transform: rotate(0);
+}
+/* State when navbar is collapsed (END) */
+
+/* Color of Toggler when collapsed */
+.navbar-toggler.collapsed .toggler-icon {
+    background-color: #fce38a;
+}
+
+/*=====================navbar part css==========================*/
+
+
+.navbar{
+
+    position: absolute;
+     top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+.navbar-brand h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+   text-transform: uppercase;
+    transition: all linear .3s;
+    position: relative;
+}
+.navbar-expand-lg .navbar-nav .nav-item {
+   
+    padding: 0 28px;
+}
+.navbar-expand-lg .navbar-nav .nav-link::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: #fce38a;
+    transition: all linear .3s;
+}
+.navbar-expand-lg .navbar-nav .nav-item:hover .nav-link::after{
+    width: 100%;
+}
+.navbar-expand-lg .navbar-nav .nav-item:last-child .nav-link{
+    padding-right: 0;
+}
+.navbar-expand-lg .navbar-nav .nav-item:hover .nav-link{
+    color: #fce38a;
+}
+.sticky-menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 999;
+    animation: sticky 1s;
+    box-shadow: 10px 10px 16px -4px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 16px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 16px -4px rgba(0,0,0,0.75);
+}
+@keyframes sticky{
+    from{
+        top: -100px;
+    }
+    to{
+        top: 0;
+    }
+}
+.navbar.sticky-menu .nav-link{
+    color: #000;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.navbar.sticky-menu .navbar-brand h1{
+    color: #fdbe33;
+    font-weight: bold;
+   
+}
+
+/*=====================banner part css==========================*/
+#banner_id{
+    position: relative;
+}
+.overly{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( to top,rgba(252, 227, 138, 0.9),rgba(243, 129, 129, 0.9)) ;
+}
+.right{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+   width: 40px;
+   height: 40px;
+   text-align: center;
+ line-height: 40px;
+ 
+   background-color: #fff;
+   border-radius: 50%;
+  
+}
+.left{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+   width: 40px;
+   height: 40px;
+   text-align: center;
+ line-height: 40px;
+ 
+   background-color: #fff;
+   border-radius: 50%;
+  
+}
+.ban-text h2{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 59px;
+    font-weight: 400;
+    color: #fff;
+    padding-top:218px;
+   
+
+}
+.ban-text h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 112px;
+    padding-right: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    
+}
+.ban-text h4::after{
+    content: "";
+    position: absolute;
+    bottom: -53px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 65px;
+    height: 5px;
+    background-color: #fff;
+    margin-bottom: 15px;
+}
+.item img{
+    height: 100%;
+}
+.ban-text button{
+    border: 3px solid #fff;
+    background-color: rgba(252, 227, 138, 0.2);
+    color: #fff;
+  margin-top: 85px;
+  padding: 15px 40px;
+  transition: all linear .3s;
+  margin-bottom: 200px ;
+
+}
+.ban-text button a{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.ban-text button:hover{
+  background-color: rgba(243, 129, 129, 0.3);
+
+}
+/*=====================about part css==========================*/
+#about{
+    padding-top: 105px;
+    padding-bottom: 90px;
+    position: relative;
+    
+   
+}
+.about-text h2{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    
+}
+.about-text h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+   text-transform: uppercase;
+    position: relative;
+    padding-bottom: 35px;
+}
+.about-text h1::after{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 65px;
+    height: 3px;
+    background-color: #f38181;
+  
+}
+.about-text p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+    line-height: 24px;
+   margin-top: 50px;
+   padding-right: 80px;
+   margin-bottom: 103px;
+ 
+}
+
+#about .slick-slide img {
+    display: inline-block;  
+}
+
+.about-item{
+    margin-left: 12px;
+    margin-right: 12px;
+    position: relative;
+    overflow: hidden; 
+   
+}
+
+.about-item:hover .about-overly{
+    opacity: 1;
+    transform: translateX(0);
+   
+   
+}
+.about-overly{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  
+    width: 100%;
+    height: 100%;
+    background:  linear-gradient( to top,rgba(252, 227, 138, 0.9),rgba(243, 129, 129, 0.9)) ;
+    opacity: 0;
+    transition: all linear .3s;
+    transform: translateX(-200px);
+    text-align: center;
+    
+    
+}
+.about-overly img{
+  padding-top: 105px;
+
+}
+.about-overly h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    text-transform:uppercase;
+    padding-top: 10px;
+  }
+  .about-r{
+ position: absolute;
+ top: 70%;
+ right: 94px;   
+ width: 40px;
+ height: 40px;
+text-align: center;
+ line-height: 40px;
+ background-color: #fce38a;
+ color: #fff;
+border-radius: 50%;
+font-size: 25px
+  
+}
+.about-l{
+    position: absolute;
+    top: 70%;
+    left: 94px;
+   width: 40px;
+   height: 40px;
+   text-align: center;
+ line-height: 40px;
+   background-color: #fce38a;
+   border-radius: 50%;
+   color: #fff;
+   font-size: 25px;
+  
+}
+
+/*=====================counter part css==========================*/
+#counter{
+    padding-top: 108px;
+    padding-bottom: 108px;
+    background-color: #95e1d3;
+}
+.c-content h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    color: #fff;
+}
+.c-content p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+}
+/*=====================services part css==========================*/
+#services{
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+.s-last{
+    padding-top: 60px;
+}
+.s{
+    margin-top: 100px;
+}
+
+.s-content h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #333333;
+}
+.s-content p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+    padding-right: 15px;
+    line-height: 24px;
+}
+/*=====================comment part css==========================*/
+#comment{
+    padding-top: 95px;
+    padding-bottom: 95px;
+    background-color: #f8f8f8;
+   
+    
+    
+}
+.comment-icon{
+    width: 150px;
+    height: 150px;
+    border: 3px solid #95e1d3;
+    text-align: center;
+}
+.comment-icon i{
+  line-height: 150px;
+  color: #95e1d3;
+  font-size: 61px;
+}
+.comment-text p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    font-style: italic;
+    color: #999999;
+  line-height: 36px;
+    
+}
+.comment-text h5{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    font-weight: 400;
+    color: #333333;
+    text-transform: capitalize;
+    position: relative;
+    padding-left: 80px;
+  
+    
+}
+.comment-text h5::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: #f38181;
+    width: 60px;
+    height: 3px;
+}
+.right-c i{
+  
+    font-size: 25px;
+    color: #999999;
+}
+.left-c i{
+ 
+    font-size: 25px;
+    color: #999999;
+}
+
+/*=====================team part css==========================*/
+#team{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    position: relative;
+    
+}
+.team-icon i {
+    padding: 15px;
+    background-color: #fce38a;
+    color: #f38181;
+    margin-left: 1px;
+    font-size: 27px;
+    cursor: pointer;
+    transition: all linear .3s;
+
+}
+
+
+.team-icon i:hover{
+    color: #fff;
+    background-color: #f38181;
+    transform: translateY(-20px);
+}
+.team-r{
+    position: absolute;
+    top: 60%;
+    right: 170px;   
+    width: 40px;
+    height: 40px;
+   text-align: center;
+    line-height: 40px;
+    background-color: #fce38a;
+    color: #fff;
+   border-radius: 50%;
+   font-size: 25px
+     
+   }
+   .team-name h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #333333;
+    padding-top: 35px;
+   }
+   .team-name p{
+    font-family: 'Roboto', sans-serif;
+    font-size:15px;
+    font-weight: 300;
+    font-style: italic;
+    color: #999999;
+   }
+   .team-l{
+       position: absolute;
+       top: 60%;
+       left: 170px;
+      width: 40px;
+      height: 40px;
+      text-align: center;
+    line-height: 40px;
+      background-color: #fce38a;
+      border-radius: 50%;
+      color: #fff;
+      font-size: 25px;
+    
+   }
+   
+/*=====================common css==========================*/
+#work{
+    padding-top: 95px;
+    padding-bottom: 98px;
+   
+}
+.work-item{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    transition: all linear .3s;
+}
+.work-item:hover .work-overly{
+    opacity: 1;
+    transform: scale(1);
+   
+   
+}
+.work-overly{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background:  linear-gradient( to top,rgba(252, 227, 138, 0.9),rgba(243, 129, 129, 0.9)) ;
+    opacity: 0;
+    transition: all linear .3s;
+    transform: scale(2);
+    text-align: center;
+    
+    
+}
+.work-content{
+    padding-top:25%;
+ 
+}
+.work-content5{
+    padding-top:60%;
+ 
+}
+
+
+.work-icon a{
+    color: #fff;
+    font-size: 32px;
+}
+.work-text h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    padding-top: 7px;
+    
+    
+}
+.work-text p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+    color: #fff;
+  
+    
+}
+/*=====================footer part css==========================*/
+#footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f8f8f8;
+    position: relative;
+   
+}
+footer::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background:#e7e7e7;
+}
+
+.f-content p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+    line-height: 24px;
+    padding-right: 70px;
+    margin-top: 45px;
+}
+.f-content span{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333333;
+}
+.f-content h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333333;
+    position: relative;
+    padding-bottom: 13px;
+    padding-top: 50px;
+}
+.f-icon {
+    padding-top: 15px;
+}
+.f-icon i{
+    padding: 5px;
+    color: #95e1d3;
+    font-size: 20px;
+}
+.f-icon span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+    text-transform: capitalize;
+    color: #999999;
+    margin-right: 15px;
+    
+}
+.f-content h4::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #e7e7e7;
+    bottom: 0;
+    left: 0;
+}
+.f-form{
+    margin-top: 30px;
+    position: relative;
+}
+.f-form input{
+    width: 380px;
+    padding: 18px 200px 18px 14px;
+    border: 2px solid #e7e7e7;
+  
+}
+.f-form button{
+    padding: 21px 33px;
+    background-color: #95e1d3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 72px;
+
+}
+.f-form input::placeholder{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+    color: #cccccc;
+ text-transform: capitalize;
+
+}
+.f-form input:focus{
+    outline: none;
+}
+.f-header h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #333333;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+    padding-top: 60px;
+}
+
+.f-img img{
+    margin-bottom: 40px;
+    height: 89px;
+}
+.f-text p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding-right: 15px;
+    line-height: 18px;
+   
+}
+.f-text h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    font-style: italic;
+    color: #a5a5a5;
+    padding-bottom: 35px;
+    text-transform: capitalize;
+  
+   
+}
+.f-inner-gal img{
+    border: 2px solid #f8f8f8;
+}
+.f-view a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    font-style: italic;
+    color: #333333;
+    text-transform: capitalize;
+}
+.lower-footer{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #f8f8f8;
+}
+.lower-footer h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+}
+.lower-footer span{
+   color: #f38181;
+}
+/*=====================back-to-top css==========================*/
+.back-to-top{
+    position: fixed;
+    background-color: #fdbe33;
+    color: #121518;
+    width: 45px;
+    height: 45px;
+    bottom: 15px;
+    right: 15px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 45px;
+    cursor: pointer;
+    display:none;
+    animation: animate 3s;
+    -webkit-animation: animate 3s;
+    
+}
+@keyframes animate{
+   from{
+       top: 0px;
+       right: 15px;
+   }
+   to{
+       top:533px;
+       right: 15px;
+       
+   }
+
+}
+
+
+.back-to-top:hover{
+    background-color:#121518 ;
+    color: #fdbe33;
+}
+html,body{
+    scroll-behavior: unset !important;
+}
+/*=====================common css==========================*/
+.nav-item.active .nav-link{
+    color: #fce38a;
+}
+.nav-item.active .nav-link::after{
+width: 100%;
+opacity: 1;
+}
